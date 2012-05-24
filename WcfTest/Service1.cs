@@ -18,6 +18,7 @@ namespace WcfTest
     public class Service1
     {
         // TODO: Implement the collection resource that will contain the SampleItem instances
+        // add some more text here to do an update
 
         [WebGet(UriTemplate = "")]
         public List<SampleItem> GetCollection()
